@@ -1,7 +1,7 @@
 # BingWallpaperDemo
 ##uwp BING壁纸客户端
 
-![](http://github.com/Night-Dawn/BingWallpaper/raw/master/Assets/SplashScreen.scale-400.png)
+![](https://github.com/Night-Dawn/BingWallpaperDemo/blob/master/BingWallpaper/BingWallpaper/Assets/welcome.scale-400.png)
 
 
 
