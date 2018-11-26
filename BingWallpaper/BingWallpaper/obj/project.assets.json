@@ -30942,11 +30942,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Night_Dawn\\source\\repos\\BingWallpaper\\BingWallpaper\\BingWallpaper.csproj",
+      "projectUniqueName": "C:\\Users\\Night_Dawn\\Documents\\GitHub\\BingWallpaperDemo\\BingWallpaper\\BingWallpaper\\BingWallpaper.csproj",
       "projectName": "BingWallpaper",
-      "projectPath": "C:\\Users\\Night_Dawn\\source\\repos\\BingWallpaper\\BingWallpaper\\BingWallpaper.csproj",
+      "projectPath": "C:\\Users\\Night_Dawn\\Documents\\GitHub\\BingWallpaperDemo\\BingWallpaper\\BingWallpaper\\BingWallpaper.csproj",
       "packagesPath": "C:\\Users\\Night_Dawn\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Night_Dawn\\source\\repos\\BingWallpaper\\BingWallpaper\\obj\\",
+      "outputPath": "C:\\Users\\Night_Dawn\\Documents\\GitHub\\BingWallpaperDemo\\BingWallpaper\\BingWallpaper\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

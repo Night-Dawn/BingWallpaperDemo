@@ -11,12 +11,17 @@
     <Page.Resources>
 
         <Storyboard x:Name="showMorePicture">
-            <DoubleAnimation Storyboard.TargetName="topTransform" Storyboard.TargetProperty="Y" From="-1550" To="0" Duration="0:0:0.3"></DoubleAnimation>
+            <DoubleAnimation Storyboard.TargetName="topTransform" Storyboard.TargetProperty="Y" From="-150" To="0" Duration="0:0:0.3"></DoubleAnimation>
         </Storyboard>
         <Windows10FallCreatorsUpdate:AcrylicBrush x:Key="CMapUwpAcrylicBrush"
               BackgroundSource="HostBackdrop"
               TintColor="Black"
               TintOpacity="0.1"
+              FallbackColor="{StaticResource SystemAccentColor}"/>
+        <Windows10FallCreatorsUpdate:AcrylicBrush x:Key="topStackPanelAcrylicBrush"
+              BackgroundSource="HostBackdrop"
+              TintColor="#FF000000"
+              TintOpacity="0.2"
               FallbackColor="{StaticResource SystemAccentColor}"/>
         <Style x:Key="AppBarButtonStyle1" TargetType="AppBarButton">
             <Setter Property="Background" Value="{ThemeResource AppBarButtonBackground}"/>
@@ -271,13 +276,25 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
 
-        <StackPanel x:Name="TitlePanel" Margin="20" Grid.Row="0" >
-            <TextBlock Text="Bing壁纸" FontSize="24" Tapped="TextBlock_Tapped"  >
+        <RelativePanel x:Name="TitlePanel" Margin="20" Grid.Row="0"  >
+            <TextBlock Text="Bing壁纸" Width="100" FontSize="24" Tapped="TextBlock_Tapped"  >
                 <TextBlock.Foreground>
                     <Windows10FallCreatorsUpdate:AcrylicBrush TintColor="#CC6CBCD2"/>
                 </TextBlock.Foreground>
             </TextBlock>
-        </StackPanel>
+                <TextBlock x:Name="timeTextBlock" 
+                     HorizontalAlignment="Left"
+                     RelativePanel.AlignRightWithPanel="True"
+                     Margin="20"
+                     VerticalAlignment="Center"
+                     FontSize="25"
+                     FontWeight="Bold" 
+                     >
+                    <TextBlock.Foreground>
+                        <Windows10FallCreatorsUpdate:AcrylicBrush TintColor="#CC6CBCD2"/>
+                    </TextBlock.Foreground>
+                </TextBlock>
+        </RelativePanel>
         <Grid Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Tapped="Grid_Tapped">
             <StackPanel Orientation="Horizontal" 
                         Canvas.ZIndex="1"
@@ -289,8 +306,6 @@
                     <TextBlock.Foreground>
                         <Windows10FallCreatorsUpdate:AcrylicBrush TintColor="#CC3A849A"/>
                     </TextBlock.Foreground>
-
-
                 </TextBlock>
             </StackPanel>
             <Image x:Name="MyImage" Stretch="UniformToFill"/>
@@ -300,15 +315,16 @@
                     VerticalAlignment="Top"
                     Orientation="Vertical" 
                     Grid.RowSpan="2" 
-                    Background="{ThemeResource SystemControlAcrylicWindowBrush}" >
+                    Background="{ThemeResource topStackPanelAcrylicBrush}"
+                     >
             <StackPanel.RenderTransform>
                 <TranslateTransform x:Name="topTransform" Y="-150" ></TranslateTransform>
             </StackPanel.RenderTransform>
             <TextBlock Text="请选择要查看壁纸的日期：" Margin="20" VerticalAlignment="Center" FontSize="24"/>
             <StackPanel  Orientation="Horizontal"  >
-                <AppBarButton x:Name="minus_bar" Click="Minus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
+                <AppBarButton Foreground="SteelBlue"  x:Name="minus_bar" Click="Minus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
                 <TextBlock Margin="20" x:Name="DayNumber" FontSize="21" VerticalAlignment="Center" Text="今天"/>
-                <AppBarButton x:Name="plus_bar" Click="Plus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
+                <AppBarButton Foreground="SteelBlue" x:Name="plus_bar" Click="Plus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
                 <TextBlock Margin="20" Text="的壁纸" FontSize="21" VerticalAlignment="Center" />
             </StackPanel>
         </StackPanel>

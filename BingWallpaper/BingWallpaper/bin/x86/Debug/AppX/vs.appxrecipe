@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>cf04939e-e355-43d1-82b2-e6812ed1c28a</PackageIdentityName>
     <PackageIdentityPublisher>CN=Night_Dawn</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>530D2E0E5D07E57AF833ECD63F95E6CCB7451A9CA2E10057141A1D9BEE5D2B8C</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>cf04939e-e355-43d1-82b2-e6812ed1c28a_1.0.0.0_x86__khwdqkj6sdd7m</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>cf04939e-e355-43d1-82b2-e6812ed1c28a_khwdqkj6sdd7m!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-24T04:42:43.011</Modified>
+      <Modified>2018-11-26T13:33:41.327</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\BingWallpaper.exe">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\BingWallpaper.exe">
       <PackagePath>entrypoint\BingWallpaper.exe</PackagePath>
-      <Modified>2018-11-24T04:42:42.670</Modified>
+      <Modified>2018-11-26T13:33:40.958</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -530,94 +530,94 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2018-10-22T17:33:40.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <Modified>2018-11-23T11:05:16.027</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-125.png">
       <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
       <Modified>2018-11-23T11:05:16.140</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-150.png">
       <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
       <Modified>2018-11-23T11:05:16.261</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <Modified>2018-11-23T11:03:21.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\welcome.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\welcome.scale-400.png">
       <PackagePath>Assets\welcome.scale-400.png</PackagePath>
       <Modified>2018-11-23T11:03:21.139</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <Modified>2018-11-23T11:05:16.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-21T14:04:44.425</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\BingWallpaper.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\BingWallpaper.xr.xml">
       <PackagePath>BingWallpaper.xr.xml</PackagePath>
-      <Modified>2018-11-24T04:08:23.509</Modified>
+      <Modified>2018-11-26T13:28:36.986</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-24T04:42:42.532</Modified>
+      <Modified>2018-11-26T13:33:40.819</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-24T04:42:42.532</Modified>
+      <Modified>2018-11-26T13:33:40.819</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2018-10-22T16:44:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-11-23T11:11:34.855</Modified>
+      <Modified>2018-11-26T13:22:59.311</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\BingWallpaper.exe">
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\BingWallpaper.exe">
       <PackagePath>BingWallpaper.exe</PackagePath>
-      <Modified>2018-11-24T04:42:42.994</Modified>
+      <Modified>2018-11-26T13:33:41.311</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

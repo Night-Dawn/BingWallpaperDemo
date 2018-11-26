@@ -45,6 +45,15 @@ namespace BingWallpaper
             string url = String.Format($"https://cn.bing.com{rootobject.images[0].url}");
             MyImage.Source = new BitmapImage(new Uri(url, UriKind.Absolute));
             copyrightTextBlock.Text = rootobject.images[0].copyright;
+            var timer = ShowTime.GetTime();
+            timer.Tick += Timer_Tick;
+            timer.Start();
+            
+        }
+
+        private void Timer_Tick(object sender, object e)
+        {
+            this.timeTextBlock.Text = DateTime.Now.ToString();
         }
 
         private void Grid_Loading(FrameworkElement sender, object args)

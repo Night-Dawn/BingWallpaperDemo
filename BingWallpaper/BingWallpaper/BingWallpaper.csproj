@@ -123,6 +123,7 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\GetWallpaper.cs" />
+    <Compile Include="Models\ShowTime.cs" />
     <Compile Include="Models\WallpaperData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
