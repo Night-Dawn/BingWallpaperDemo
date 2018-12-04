@@ -5,8 +5,11 @@ using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
+using Windows.ApplicationModel.VoiceCommands;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
+using Windows.Media.SpeechRecognition;
+using Windows.Storage;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Controls.Primitives;
@@ -37,7 +40,7 @@ namespace BingWallpaper
         /// 将在启动应用程序以打开特定文件等情况下使用。
         /// </summary>
         /// <param name="e">有关启动请求和过程的详细信息。</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected async override void OnLaunched(LaunchActivatedEventArgs e)
         {
             Frame rootFrame = Window.Current.Content as Frame;
 
@@ -70,6 +73,8 @@ namespace BingWallpaper
                 }
                 // 确保当前窗口处于活动状态
                 Window.Current.Activate();
+                StorageFile vcdFile = await StorageFile.GetFileFromApplicationUriAsync(new Uri("ms-appx:///CortanaTest.xml"));
+                await VoiceCommandDefinitionManager.InstallCommandDefinitionsFromStorageFileAsync(vcdFile);
             }
         }
 
@@ -96,5 +101,29 @@ namespace BingWallpaper
             //TODO: 保存应用程序状态并停止任何后台活动
             deferral.Complete();
         }
+        protected override void OnActivated(IActivatedEventArgs args)
+        {
+            if (args.Kind == ActivationKind.VoiceCommand)
+            {
+                VoiceCommandActivatedEventArgs varg = (VoiceCommandActivatedEventArgs)args;
+                SpeechRecognitionResult res = varg.Result;
+                string cmdName = res.RulePath[0];
+                if (cmdName == "before")
+                {
+                    MainPage.Current.minus_bar.Click += new RoutedEventHandler(MainPage.Current.Minus_bar_Click);
+                    MainPage.Current.Minus_bar_Click(null, null);
+
+
+                }
+                if (cmdName == "after")
+                {
+                    MainPage.Current.plus_bar.Click += new RoutedEventHandler(MainPage.Current.Plus_bar_Click);
+                    MainPage.Current.Plus_bar_Click(null, null);
+
+                }
+            }
+        }
+
+        
     }
 }

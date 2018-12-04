@@ -444,6 +444,9 @@
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\CortanaTest.xml">
+      <PackagePath>CortanaTest.xml</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>

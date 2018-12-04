@@ -3,4 +3,7 @@
   <PropertyGroup>
     <SplashScreenSource>C:\Users\Night_Dawn\source\repos\BingWallpaper\BingWallpaper\Assets\welcome.jpg</SplashScreenSource>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <UseSimulator>false</UseSimulator>
+  </PropertyGroup>
 </Project>

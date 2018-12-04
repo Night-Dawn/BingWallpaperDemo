@@ -285,7 +285,6 @@
                 <TextBlock x:Name="timeTextBlock" 
                      HorizontalAlignment="Left"
                      RelativePanel.AlignRightWithPanel="True"
-                     Margin="20"
                      VerticalAlignment="Center"
                      FontSize="25"
                      FontWeight="Bold" 
@@ -322,9 +321,9 @@
             </StackPanel.RenderTransform>
             <TextBlock Text="请选择要查看壁纸的日期：" Margin="20" VerticalAlignment="Center" FontSize="24"/>
             <StackPanel  Orientation="Horizontal"  >
-                <AppBarButton Foreground="SteelBlue"  x:Name="minus_bar" Click="Minus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
+                <AppBarButton x:FieldModifier="public" Foreground="SteelBlue"  x:Name="minus_bar" Click="Minus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
                 <TextBlock Margin="20" x:Name="DayNumber" FontSize="21" VerticalAlignment="Center" Text="今天"/>
-                <AppBarButton Foreground="SteelBlue" x:Name="plus_bar" Click="Plus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
+                <AppBarButton x:FieldModifier="public" Foreground="SteelBlue" x:Name="plus_bar" Click="Plus_bar_Click" Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
                 <TextBlock Margin="20" Text="的壁纸" FontSize="21" VerticalAlignment="Center" />
             </StackPanel>
         </StackPanel>

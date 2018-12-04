@@ -282,10 +282,9 @@
                     <Windows10FallCreatorsUpdate:AcrylicBrush TintColor="#CC6CBCD2"/>
                 </TextBlock.Foreground>
             </TextBlock>
-            <StackPanel Height="60" RelativePanel.AlignRightWithPanel="True" Background="{ThemeResource CMapUwpAcrylicBrush}">
                 <TextBlock x:ConnectionId='16' x:Name="timeTextBlock" 
                      HorizontalAlignment="Left"
-                     Margin="20"
+                     RelativePanel.AlignRightWithPanel="True"
                      VerticalAlignment="Center"
                      FontSize="25"
                      FontWeight="Bold" 
@@ -294,9 +293,6 @@
                         <Windows10FallCreatorsUpdate:AcrylicBrush TintColor="#CC6CBCD2"/>
                     </TextBlock.Foreground>
                 </TextBlock>
-            </StackPanel>
-          
-
         </RelativePanel>
         <Grid x:ConnectionId='7' Grid.Row="1" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"                      >
             <StackPanel Orientation="Horizontal" 
@@ -325,9 +321,9 @@
             </StackPanel.RenderTransform>
             <TextBlock Text="请选择要查看壁纸的日期：" Margin="20" VerticalAlignment="Center" FontSize="24"/>
             <StackPanel  Orientation="Horizontal"  >
-                <AppBarButton x:ConnectionId='10' Foreground="SteelBlue"  x:Name="minus_bar"                         Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
+                <AppBarButton x:ConnectionId='10' x:FieldModifier="public" Foreground="SteelBlue"  x:Name="minus_bar"                         Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Remove" IsCompact="True"/>
                 <TextBlock x:ConnectionId='11' Margin="20" x:Name="DayNumber" FontSize="21" VerticalAlignment="Center" Text="今天"/>
-                <AppBarButton x:ConnectionId='12' Foreground="SteelBlue" x:Name="plus_bar"                        Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
+                <AppBarButton x:ConnectionId='12' x:FieldModifier="public" Foreground="SteelBlue" x:Name="plus_bar"                        Width="45" Height="45" Margin="20" Style="{StaticResource AppBarButtonStyle1}" Icon="Add" IsCompact="True"/>
                 <TextBlock Margin="20" Text="的壁纸" FontSize="21" VerticalAlignment="Center" />
             </StackPanel>
         </StackPanel>

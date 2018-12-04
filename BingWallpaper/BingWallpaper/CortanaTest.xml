@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<VoiceCommands xmlns="http://schemas.microsoft.com/voicecommands/1.2">
+  <CommandSet xml:lang="zh-cn">
+    <AppName>壁纸测试</AppName>
+    <Example> "打开 主页" 或 "上一张壁纸" </Example>
+
+    <Command Name="before">
+      <Example> "上一张壁纸"或"向前"</Example>
+      <ListenFor> 上[一]张壁纸</ListenFor>
+      <Feedback> 好的，正在切换中</Feedback>
+      <Navigate/>
+    </Command>
+    <Command Name="after">
+      <Example> "下一张壁纸"或"向后"</Example>
+      <ListenFor> 下[一]张壁纸</ListenFor>
+      <Feedback> 好的，正在切换中</Feedback>
+      <Navigate/>
+    </Command>
+
+
+    <!--可以提高识别率，内部属性Subject可指定该关键字类型，比如 城市名 姓名  地址 等类型-->
+
+
+
+
+  </CommandSet>
+
+  <!-- 其他语言的 CommandSet -->
+
+
+</VoiceCommands>

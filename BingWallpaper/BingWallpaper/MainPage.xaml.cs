@@ -25,20 +25,22 @@ using static BingWallpaper.Models.WallpaperData;
 
 namespace BingWallpaper
 {
-    
+
     /// <summary>
     /// 可用于自身或导航至 Frame 内部的空白页。
     /// </summary>
+
     public sealed partial class MainPage : Page
     {
+        public static MainPage Current;
         public MainPage()
         {
             this.InitializeComponent();
-
+            Current = this;
         }
-
-        //传入api中获取对应天数的壁纸
        
+        //传入api中获取对应天数的壁纸
+
         private async void Grid_Loaded(object sender, RoutedEventArgs e)
         {
             var   rootobject = await GetWallpaper.GetRootobjectAsync(0);
@@ -71,11 +73,14 @@ namespace BingWallpaper
         {
             showMorePicture.Stop();
         }
-        private int day = 0;
-        private async void Minus_bar_Click(object sender, RoutedEventArgs e)
+        public int day = 0;
+        public  async void Minus_bar_Click(object sender, RoutedEventArgs e)
         {
             plus_bar.IsEnabled = true;
                 day++;
+            if (day > 7)
+                day = 7;
+                
                 switch(day)
                 {
                     case 0:
@@ -101,7 +106,8 @@ namespace BingWallpaper
                         break;
                     case 7:
                         DayNumber.Text = "七天前";
-                        break;
+                        minus_bar.IsEnabled = false;
+                    break;
                     default:
                         minus_bar.IsEnabled = false;
                         break;
@@ -115,7 +121,7 @@ namespace BingWallpaper
             
         }
 
-        private async void Plus_bar_Click(object sender, RoutedEventArgs e)
+        public async void Plus_bar_Click(object sender, RoutedEventArgs e)
         {
             minus_bar.IsEnabled = true;
             if (day==0)

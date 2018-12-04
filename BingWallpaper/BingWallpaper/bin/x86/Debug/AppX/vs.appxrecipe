@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-26T13:33:41.327</Modified>
+      <Modified>2018-12-04T12:46:11.002</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\BingWallpaper.exe">
       <PackagePath>entrypoint\BingWallpaper.exe</PackagePath>
-      <Modified>2018-11-26T13:33:40.958</Modified>
+      <Modified>2018-12-04T12:46:10.657</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\.nuget\packages\microsoft.csharp\4.3.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -591,6 +591,10 @@
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <Modified>2018-11-19T11:39:22.361</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\CortanaTest.xml">
+      <PackagePath>CortanaTest.xml</PackagePath>
+      <Modified>2018-12-04T11:27:45.693</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-21T14:04:44.425</Modified>
@@ -601,11 +605,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-26T13:33:40.819</Modified>
+      <Modified>2018-12-04T12:46:10.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-26T13:33:40.819</Modified>
+      <Modified>2018-12-04T12:46:10.529</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -613,11 +617,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2018-11-26T13:22:59.311</Modified>
+      <Modified>2018-12-04T12:25:21.629</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Night_Dawn\Documents\GitHub\BingWallpaperDemo\BingWallpaper\BingWallpaper\bin\x86\Debug\Core\BingWallpaper.exe">
       <PackagePath>BingWallpaper.exe</PackagePath>
-      <Modified>2018-11-26T13:33:41.311</Modified>
+      <Modified>2018-12-04T12:46:10.987</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
